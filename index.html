@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
   <meta charset="utf-8" />
-  <title>PWA Starter</title>
+  <title>Bone Club</title>
 
   <base href="/" />
 
   <!-- This meta viewport ensures the webpage's dimensions change according to the device it's on. This is called Responsive Web Design.-->
   <meta name="viewport"
     content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
-  <meta name="description" content="This is a PWA Starter app" />
+  <meta name="description" content="Bone Club é um aplicativo da Bone Alimentos. Participe de nossa comunidade e saiba mais sobre alimentação saudável e Comida de Verdade! Adquira nossos produtos com condições exclusivas, acumule pontos, compartilhe seu próprio link de afiliados e muito mais." />
 
-  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#181818" />
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f3f3f3" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#252721" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ff8a00" />
 
   <!-- These meta tags are Apple-specific, and set the web application to run in full-screen mode with a black status bar. Learn more at https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="PWA Starter" />
+  <meta name="apple-mobile-web-app-title" content="Bone Club" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
   <!-- Imports an icon to represent the document. -->
@@ -47,6 +47,13 @@
       );
     }
   </script>
+<script src="https://cdn.by.wonderpush.com/sdk/1.1/wonderpush-loader.min.js" async></script>
+    <script>
+      window.WonderPush = window.WonderPush || [];
+      WonderPush.push(["init", {
+        webKey: "1c4622d8057171ec7a4a5b07e9d91849daf175e3ca484b0c9a9f5cfaf6be7b5c",
+      }]);
+    </script>
 </body>
 
 </html>
