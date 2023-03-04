@@ -1,38 +1,20 @@
 {
-  "id": "/",
-  "scope": "/",
-  "name": "PWA Starter",
-  "display": "standalone",
-  "start_url": "/",
-  "short_name": "starter",
-  "theme_color": "#E1477E",
-  "description": "This is a PWA Starter app",
+"protocol_handlers": [{"protocol":"mailto","url":"/newEmail?to=%s"}], 
+  "background_color": "#272521",
+  "description": "Transforme sua Alimentação com a Bone Alimentos - Produtos Artesanais de Alto Valor.\nAdeus Glúten, Açúcar e Aditivos Artificiais!\nCaldo de Osso com muito Colágeno e repleto de Benefícios, feito com muito Amor e Carinho.\nIdeal para Dietas Low-Carb, Cetogênica, Paleolítica e Carnívora. Compre Agora!",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "BONE Alimentos - Comida de Verdade!",
   "orientation": "any",
-  "background_color": "#E1477E",
-  "related_applications": [],
-  "prefer_related_applications": false,
-  "display_override": ["window-controls-overlay"],
-  "icons": [
-    {
-      "src": "assets/icons/512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/icons/192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/icons/48x48.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/icons/24x24.png",
-      "sizes": "24x24",
-      "type": "image/png"
-    }
+  "scope": "/",
+  "short_name": "Bone Club",
+  "start_url": ".",
+  "theme_color": "#ff8a00",
+  "categories": [
+    "food",
+    "health",
+    "lifestyle",
+    "shopping"
   ],
   "screenshots": [
     {
@@ -41,21 +23,56 @@
       "type": "image/png"
     }
   ],
-  "features": [
-    "Cross Platform",
-    "fast",
-    "simple"
-  ],
-  "categories": [
-    "social"
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
   ],
   "shortcuts": [
     {
-      "name": "Open About",
-      "short_name": "About",
-      "description": "Open the about page",
-      "url": "/about",
-      "icons": [{ "src": "assets/icons/192x192.png", "sizes": "192x192" }]
+      "name": "Loja Bone",
+      "url": "bonealimentos.com/loja",
+      "icons": [
+        {
+          "src": "logo192.png"
+        }
+      ],
+      "description": "Encontre o melhor da Comida de Verdade! Conheça nossa loja e experimente todo o sabor dos produtos Bone para uma alimentação saudável e nutritiva."
+    },
+    {
+      "name": "Comunidade Bone",
+      "url": "bonealimentos.com/group/comunidade-bone/about",
+      "icons": [
+        {
+          "src": "logo192.png"
+        }
+      ],
+      "description": "Participe de nossa comunidade e compartilhe de suas ideias e opiniões e tudo sobre a vida e alimentação saudável."
+    },
+    {
+      "name": "Blog Bone",
+      "url": "bonealimentos.com/blog",
+      "icons": [
+        {
+          "src": "logo192.png"
+        }
+      ],
+      "description": "Saiba mais sobre nossos produtos e todos os seus benefícios. Aprenda tudo sobre alimentação saudável, dietas low-carb, cetogênica, paleolítica e muito mais!"
     }
-  ]
+  ],
+  "lang": "pt",
+  "display_override": "fullscreen"
+   
 }
